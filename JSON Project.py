@@ -52,7 +52,7 @@ def remove_tasks(data,number):
         print('Invalid task number. Please choose from the given above')
 
 def check(s):
-    if s==" ":
+    if not s.strip():
         print('Cannot leave blank')
         return False
     else:
